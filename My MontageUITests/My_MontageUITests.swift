@@ -7,13 +7,25 @@
 //
 
 import XCTest
+@testable import My_Montage
+
 
 class My_MontageUITests: XCTestCase {
-        
+    
+    var menuControllerUnderTest: MenuViewController!
+    var projectControllerUnderTest: ProjectViewController!
+    var mapControllerUnderTest: MapViewController!
+    var camerControllerUnderTest: CameraViewController!
+    
     override func setUp() {
         super.setUp()
         
         // Put setup code here. This method is called before the invocation of each test method in the class.
+        menuControllerUnderTest = UIStoryboard(name: "Main", bundle: nil).instantiateInitialViewController() as! MenuViewController!
+        projectControllerUnderTest = UIStoryboard(name: "Main", bundle: nil).instantiateInitialViewController() as! ProjectViewController!
+        mapControllerUnderTest = UIStoryboard(name: "Main", bundle: nil).instantiateInitialViewController() as! MapViewController!
+        camerControllerUnderTest = UIStoryboard(name: "Main", bundle: nil).instantiateInitialViewController() as! CameraViewController!
+        
         
         // In UI tests it is usually best to stop immediately when a failure occurs.
         continueAfterFailure = false
@@ -25,6 +37,11 @@ class My_MontageUITests: XCTestCase {
     
     override func tearDown() {
         // Put teardown code here. This method is called after the invocation of each test method in the class.
+        menuControllerUnderTest = nil
+        projectControllerUnderTest = nil
+        mapControllerUnderTest = nil
+        camerControllerUnderTest = nil
+        
         super.tearDown()
     }
     

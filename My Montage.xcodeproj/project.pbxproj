@@ -7,14 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4E6DAC3A1EDE5B7000AABF7B /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E6DAC391EDE5B7000AABF7B /* CoreTelephony.framework */; };
 		4E7933031EC09354003536A6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E7933021EC09354003536A6 /* AppDelegate.swift */; };
-		4E7933051EC09354003536A6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E7933041EC09354003536A6 /* ViewController.swift */; };
 		4E7933081EC09354003536A6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E7933061EC09354003536A6 /* Main.storyboard */; };
 		4E79330B1EC09354003536A6 /* My_Montage.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4E7933091EC09354003536A6 /* My_Montage.xcdatamodeld */; };
 		4E79330D1EC09354003536A6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4E79330C1EC09354003536A6 /* Assets.xcassets */; };
 		4E7933101EC09354003536A6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E79330E1EC09354003536A6 /* LaunchScreen.storyboard */; };
 		4E79331B1EC09354003536A6 /* My_MontageTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E79331A1EC09354003536A6 /* My_MontageTests.swift */; };
 		4E7933261EC09354003536A6 /* My_MontageUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E7933251EC09354003536A6 /* My_MontageUITests.swift */; };
+		4E7933491EC0A19D003536A6 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E7933441EC0A19D003536A6 /* MenuViewController.swift */; };
+		4E79334A1EC0A19D003536A6 /* MyCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E7933451EC0A19D003536A6 /* MyCollectionViewCell.swift */; };
+		4E79334B1EC0A19D003536A6 /* myHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E7933461EC0A19D003536A6 /* myHelper.swift */; };
+		4E79334C1EC0A19D003536A6 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E7933471EC0A19D003536A6 /* MapViewController.swift */; };
+		4E7933521EC0B918003536A6 /* Project+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E7933501EC0B918003536A6 /* Project+CoreDataClass.swift */; };
+		4E7933531EC0B918003536A6 /* Project+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E7933511EC0B918003536A6 /* Project+CoreDataProperties.swift */; };
+		4E7933561EC0C034003536A6 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E7933551EC0C034003536A6 /* CoreData.framework */; };
+		4E7933581EC0FE34003536A6 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E7933571EC0FE34003536A6 /* MapKit.framework */; };
+		4E7FA04B1ED32D8C00FB8937 /* Photo+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E7FA0491ED32D8C00FB8937 /* Photo+CoreDataClass.swift */; };
+		4E7FA04C1ED32D8C00FB8937 /* Photo+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E7FA04A1ED32D8C00FB8937 /* Photo+CoreDataProperties.swift */; };
+		4E7FA04E1ED3371200FB8937 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E7FA04D1ED3371200FB8937 /* CoreLocation.framework */; };
+		4E7FA0501ED370D800FB8937 /* myMapPin .swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E7FA04F1ED370D800FB8937 /* myMapPin .swift */; };
+		4E8A92161EDED93B00244449 /* RoundButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E8A92151EDED93B00244449 /* RoundButton.swift */; };
+		4E8A92181EDF6D4500244449 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E8A92171EDF6D4500244449 /* CameraViewController.swift */; };
+		CA10AFAC1EED720D0048AFC0 /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA10AFAB1EED720D0048AFC0 /* AboutViewController.swift */; };
+		CA6C66311EDFFC6E008CD380 /* ProjectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA6C66301EDFFC6E008CD380 /* ProjectViewController.swift */; };
+		CAAEB0F21EE1AB66001B303D /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAAEB0F11EE1AB66001B303D /* Social.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,9 +52,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4E6DAC391EDE5B7000AABF7B /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
 		4E7932FF1EC09354003536A6 /* My Montage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "My Montage.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4E7933021EC09354003536A6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		4E7933041EC09354003536A6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		4E7933071EC09354003536A6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4E79330A1EC09354003536A6 /* My_Montage.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = My_Montage.xcdatamodel; sourceTree = "<group>"; };
 		4E79330C1EC09354003536A6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -49,6 +66,23 @@
 		4E7933211EC09354003536A6 /* My MontageUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "My MontageUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4E7933251EC09354003536A6 /* My_MontageUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = My_MontageUITests.swift; sourceTree = "<group>"; };
 		4E7933271EC09354003536A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4E7933441EC0A19D003536A6 /* MenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		4E7933451EC0A19D003536A6 /* MyCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyCollectionViewCell.swift; sourceTree = "<group>"; };
+		4E7933461EC0A19D003536A6 /* myHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = myHelper.swift; sourceTree = "<group>"; };
+		4E7933471EC0A19D003536A6 /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		4E7933501EC0B918003536A6 /* Project+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Project+CoreDataClass.swift"; sourceTree = "<group>"; };
+		4E7933511EC0B918003536A6 /* Project+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Project+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		4E7933551EC0C034003536A6 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		4E7933571EC0FE34003536A6 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		4E7FA0491ED32D8C00FB8937 /* Photo+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Photo+CoreDataClass.swift"; sourceTree = "<group>"; };
+		4E7FA04A1ED32D8C00FB8937 /* Photo+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Photo+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		4E7FA04D1ED3371200FB8937 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		4E7FA04F1ED370D800FB8937 /* myMapPin .swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "myMapPin .swift"; sourceTree = "<group>"; };
+		4E8A92151EDED93B00244449 /* RoundButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundButton.swift; sourceTree = "<group>"; };
+		4E8A92171EDF6D4500244449 /* CameraViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
+		CA10AFAB1EED720D0048AFC0 /* AboutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
+		CA6C66301EDFFC6E008CD380 /* ProjectViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ProjectViewController.swift; path = ../ProjectViewController.swift; sourceTree = "<group>"; };
+		CAAEB0F11EE1AB66001B303D /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +90,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CAAEB0F21EE1AB66001B303D /* Social.framework in Frameworks */,
+				4E6DAC3A1EDE5B7000AABF7B /* CoreTelephony.framework in Frameworks */,
+				4E7FA04E1ED3371200FB8937 /* CoreLocation.framework in Frameworks */,
+				4E7933581EC0FE34003536A6 /* MapKit.framework in Frameworks */,
+				4E7933561EC0C034003536A6 /* CoreData.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,10 +118,15 @@
 		4E7932F61EC09353003536A6 = {
 			isa = PBXGroup;
 			children = (
+				4E7FA0491ED32D8C00FB8937 /* Photo+CoreDataClass.swift */,
+				4E7FA04A1ED32D8C00FB8937 /* Photo+CoreDataProperties.swift */,
+				4E7933501EC0B918003536A6 /* Project+CoreDataClass.swift */,
+				4E7933511EC0B918003536A6 /* Project+CoreDataProperties.swift */,
 				4E7933011EC09354003536A6 /* My Montage */,
 				4E7933191EC09354003536A6 /* My MontageTests */,
 				4E7933241EC09354003536A6 /* My MontageUITests */,
 				4E7933001EC09354003536A6 /* Products */,
+				4E7933541EC0C033003536A6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -100,10 +144,15 @@
 			isa = PBXGroup;
 			children = (
 				4E7933021EC09354003536A6 /* AppDelegate.swift */,
-				4E7933041EC09354003536A6 /* ViewController.swift */,
+				CA1F05B51EED0925004759BD /* support */,
+				CA6C66301EDFFC6E008CD380 /* ProjectViewController.swift */,
+				4E7933441EC0A19D003536A6 /* MenuViewController.swift */,
+				4E7933471EC0A19D003536A6 /* MapViewController.swift */,
+				4E8A92171EDF6D4500244449 /* CameraViewController.swift */,
+				CA10AFAB1EED720D0048AFC0 /* AboutViewController.swift */,
 				4E7933061EC09354003536A6 /* Main.storyboard */,
-				4E79330C1EC09354003536A6 /* Assets.xcassets */,
 				4E79330E1EC09354003536A6 /* LaunchScreen.storyboard */,
+				4E79330C1EC09354003536A6 /* Assets.xcassets */,
 				4E7933111EC09354003536A6 /* Info.plist */,
 				4E7933091EC09354003536A6 /* My_Montage.xcdatamodeld */,
 			);
@@ -126,6 +175,29 @@
 				4E7933271EC09354003536A6 /* Info.plist */,
 			);
 			path = "My MontageUITests";
+			sourceTree = "<group>";
+		};
+		4E7933541EC0C033003536A6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CAAEB0F11EE1AB66001B303D /* Social.framework */,
+				4E6DAC391EDE5B7000AABF7B /* CoreTelephony.framework */,
+				4E7FA04D1ED3371200FB8937 /* CoreLocation.framework */,
+				4E7933571EC0FE34003536A6 /* MapKit.framework */,
+				4E7933551EC0C034003536A6 /* CoreData.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CA1F05B51EED0925004759BD /* support */ = {
+			isa = PBXGroup;
+			children = (
+				4E8A92151EDED93B00244449 /* RoundButton.swift */,
+				4E7933461EC0A19D003536A6 /* myHelper.swift */,
+				4E7933451EC0A19D003536A6 /* MyCollectionViewCell.swift */,
+				4E7FA04F1ED370D800FB8937 /* myMapPin .swift */,
+			);
+			name = support;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -265,9 +337,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4E7933051EC09354003536A6 /* ViewController.swift in Sources */,
+				4E8A92161EDED93B00244449 /* RoundButton.swift in Sources */,
+				4E7FA04C1ED32D8C00FB8937 /* Photo+CoreDataProperties.swift in Sources */,
+				4E8A92181EDF6D4500244449 /* CameraViewController.swift in Sources */,
+				CA10AFAC1EED720D0048AFC0 /* AboutViewController.swift in Sources */,
+				4E79334A1EC0A19D003536A6 /* MyCollectionViewCell.swift in Sources */,
+				4E7FA0501ED370D800FB8937 /* myMapPin .swift in Sources */,
+				4E7933491EC0A19D003536A6 /* MenuViewController.swift in Sources */,
+				CA6C66311EDFFC6E008CD380 /* ProjectViewController.swift in Sources */,
+				4E79334C1EC0A19D003536A6 /* MapViewController.swift in Sources */,
+				4E7FA04B1ED32D8C00FB8937 /* Photo+CoreDataClass.swift in Sources */,
 				4E7933031EC09354003536A6 /* AppDelegate.swift in Sources */,
 				4E79330B1EC09354003536A6 /* My_Montage.xcdatamodeld in Sources */,
+				4E7933531EC0B918003536A6 /* Project+CoreDataProperties.swift in Sources */,
+				4E79334B1EC0A19D003536A6 /* myHelper.swift in Sources */,
+				4E7933521EC0B918003536A6 /* Project+CoreDataClass.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -419,12 +503,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEBUG_ACTIVITY_MODE = "";
 				DEVELOPMENT_TEAM = A3D2X5JZ2T;
 				INFOPLIST_FILE = "My Montage/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				"MTL_ENABLE_DEBUG_INFO[arch=*]" = disable;
 				PRODUCT_BUNDLE_IDENTIFIER = "Monash.My-Montage";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -432,12 +521,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEBUG_ACTIVITY_MODE = "";
 				DEVELOPMENT_TEAM = A3D2X5JZ2T;
 				INFOPLIST_FILE = "My Montage/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[arch=*]" = " ~/Documents/FacebookSDK";
 				PRODUCT_BUNDLE_IDENTIFIER = "Monash.My-Montage";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -518,6 +612,7 @@
 				4E79332C1EC09354003536A6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4E79332D1EC09354003536A6 /* Build configuration list for PBXNativeTarget "My MontageTests" */ = {
 			isa = XCConfigurationList;
@@ -526,6 +621,7 @@
 				4E79332F1EC09354003536A6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4E7933301EC09354003536A6 /* Build configuration list for PBXNativeTarget "My MontageUITests" */ = {
 			isa = XCConfigurationList;
@@ -534,6 +630,7 @@
 				4E7933321EC09354003536A6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
